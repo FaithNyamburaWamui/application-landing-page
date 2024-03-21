@@ -39,7 +39,7 @@ margin-left: 10%;
 }
 #text{
     display: flex;
-    gap: 200px;
+    gap: 150px;
 }
 .head{
     padding-left: 400px;
@@ -72,19 +72,9 @@ margin-left: 10%;
     padding: 1%;
     border-radius: 40%;
 }
-.up{
-    background-color: palevioletred;
-    color: white;
-    border-radius: 30%;
-   margin: 7%;
-    
-}
-.login{
-    margin: 8%;  
-}
-.customer{
-    display: flex;
-} 
+ 
+
+ 
 #clients{
     padding-left: 30%;
 }
@@ -111,8 +101,253 @@ margin-left: 10%;
 }
 #pic{
     padding-top: 10%;
-    width: 1%;
-    height: 20%;
+    
    
 }
+@media screen and (min-width:280px) and (max-width:414){
+    body{
+        margin-right: 4%;
+     margin-left: 4%;
+     }
+     
+     .sign{
+         background-color: palevioletred;
+         color: white;
+     }
+     .navbar{
+         list-style: none;
+         display: flex;
+         gap: 200px;
+     }
+     #start{
+         display: flex;
+         gap: 80px;
+     }
+     .app{
+          background-color: black; 
+         color: white;
+         border-radius: 7%;
+         padding-top: 3%;
+         padding-bottom: 3%;
+         padding-left: 5%;
+         padding-right: 5%;
+     
+     }
+     .store{
+         border-radius: 10%;
+         padding-top: 3%;
+         padding-bottom: 3%;
+         padding-left: 5%;
+         padding-right: 5%;
+     
+     }
+     .start{
+         width: 10%;
+     }
+     #text{
+         display: flex;
+         gap: 20px;
+     }
+     .head{
+         padding-left: 40px;
+     }
+     #statements{
+         display: flex;
+         gap: 10px;
+         padding-left: 8%;
+     }
+     #tittle{
+         padding-left: 4%;
+         padding-top: 7%;
+     }
+     .number{
+         display: flex;
+         gap: 10px;
+         padding-right: 10%;
+     }
+     .value{
+         display: flex;
+         gap: 100px;
+     }
+     #number{
+         display: grid;
+         grid-template-columns: 10% 10%;
+     }
+     .more{
+         background-color: black;
+         color: white;
+         padding: 1%;
+         border-radius: 10%;
+     }
+     .up{
+         background-color: palevioletred;
+         color: white;
+         border-radius: 10%;
+        margin: 7%;
+         
+     }
+     .login{
+         margin: 8%;  
+     }
+     .customer{
+         display: flex;
+     } 
+     #clients{
+         padding-left: 10%;
+     }
+     #images{
+         display: flex;
+         gap: 40px;
+     } 
+     .end{
+         display: flex;
+         gap: 50px;
+     } 
+     .download{
+         padding-top: 20%;
+         font-size: x-large;
+     }
+     #footer{
+         display: flex;
+         gap: 30px;
+         list-style: none;
+         background-color: blue;
+         color: white;
+         padding-left: 6%;
+         white-space: nowrap;
+     }
+     #pic{
+         padding-top: 10%;
+         width: 1%;
+         height: 10%;
+        
+     }
+     
+}
+@media screen and (min-width:414px) and (max-width:800){
+    body{
+        margin-right: 4%;
+     margin-left: 4%;
+     }
+     
+     .sign{
+         background-color: palevioletred;
+         color: white;
+     }
+     .navbar{
+         list-style: none;
+         display: flex;
+         gap: 200px;
+     }
+     #start{
+         display: flex;
+         gap: 80px;
+     }
+     .app{
+          background-color: black; 
+         color: white;
+         border-radius: 7%;
+         padding-top: 3%;
+         padding-bottom: 3%;
+         padding-left: 5%;
+         padding-right: 5%;
+     
+     }
+     .store{
+         border-radius: 10%;
+         padding-top: 3%;
+         padding-bottom: 3%;
+         padding-left: 5%;
+         padding-right: 5%;
+     
+     }
+     .start{
+         width: 10%;
+     }
+     #text{
+         display: flex;
+         gap: 20px;
+     }
+     .head{
+         padding-left: 40px;
+     }
+     #statements{
+         display: flex;
+         gap: 10px;
+         padding-left: 8%;
+     }
+     #tittle{
+         padding-left: 4%;
+         padding-top: 7%;
+     }
+     .number{
+         display: flex;
+         gap: 10px;
+         padding-right: 10%;
+     }
+     .value{
+         display: flex;
+         gap: 100px;
+     }
+     #number{
+         display: grid;
+         grid-template-columns: 10% 10%;
+     }
+     .more{
+         background-color: black;
+         color: white;
+         padding: 1%;
+         border-radius: 10%;
+     }
+     .up{
+         background-color: palevioletred;
+         color: white;
+         border-radius: 10%;
+        margin: 7%;
+         
+     }
+     .login{
+         margin: 8%;  
+     }
+     .customer{
+         display: flex;
+     } 
+     #clients{
+         padding-left: 10%;
+     }
+     #images{
+         display: flex;
+         gap: 40px;
+     } 
+     .end{
+         display: flex;
+         gap: 50px;
+     } 
+     .download{
+         padding-top: 20%;
+         font-size: x-large;
+     }
+     #footer{
+         display: flex;
+         gap: 30px;
+         list-style: none;
+         background-color: blue;
+         color: white;
+         padding-left: 6%;
+         white-space: nowrap;
+     }
+     #pic{
+         padding-top: 10%;
+         width: 1%;
+         height: 10%;
+        
+     }
+     
+}
 
+         
+
+  
+     
+
+  
