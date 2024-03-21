@@ -1,0 +1,118 @@
+body{
+   margin-right: 10%;
+margin-left: 10%;
+}
+
+.sign{
+    background-color: palevioletred;
+    color: white;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    gap: 200px;
+}
+#start{
+    display: flex;
+    gap: 80px;
+}
+.app{
+     background-color: black; 
+    color: white;
+    border-radius: 40%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.store{
+    border-radius: 40%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.start{
+    width: 60%;
+}
+#text{
+    display: flex;
+    gap: 200px;
+}
+.head{
+    padding-left: 400px;
+}
+#statements{
+    display: flex;
+    gap: 100px;
+    padding-left: 25%;
+}
+#tittle{
+    padding-left: 40%;
+    padding-top: 10%;
+}
+.number{
+    display: flex;
+    gap: 100px;
+    padding-right: 50%;
+}
+.value{
+    display: flex;
+    gap: 100px;
+}
+#number{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.more{
+    background-color: black;
+    color: white;
+    padding: 1%;
+    border-radius: 40%;
+}
+.up{
+    background-color: palevioletred;
+    color: white;
+    border-radius: 30%;
+   margin: 7%;
+    
+}
+.login{
+    margin: 8%;  
+}
+.customer{
+    display: flex;
+} 
+#clients{
+    padding-left: 30%;
+}
+#images{
+    display: flex;
+    gap: 400px;
+} 
+.end{
+    display: flex;
+    gap: 500px;
+} 
+.download{
+    padding-top: 20%;
+    font-size: x-large;
+}
+#footer{
+    display: flex;
+    gap: 300px;
+    list-style: none;
+    background-color: blue;
+    color: white;
+    padding-left: 6%;
+    white-space: nowrap;
+}
+#pic{
+    padding-top: 10%;
+    width: 1%;
+    height: 20%;
+   
+}
+
